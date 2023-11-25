@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'Hello from my Python app on Railway!'
+    return 'Hello from my Python app this is admin!'
 
 if __name__ == '__main__':
     app.run(debug=True)
